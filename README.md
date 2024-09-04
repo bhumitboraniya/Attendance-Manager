@@ -64,18 +64,17 @@ Sending Absent Notifications
 After attendance is recorded, the system will automatically send email notifications to absent students, informing them of their absence.
 
 Project Structure
-your_script_name.py: Main script for running the face recognition attendance system.
-faces/: Directory containing images of all students.
-file1.csv: CSV file containing email addresses, names, and image filenames of students.
-<date>.csv: Attendance CSV file generated daily.
+your_script_name.py: Main script for running the face recognition attendance system.<br/>
+faces/: Directory containing images of all students.<br/>
+file1.csv: CSV file containing email addresses, names, and image filenames of students.<br/>
+<date>.csv: Attendance CSV file generated daily.<br/>
 
 ## Configuration
-Email Configuration
-The script uses Gmail's SMTP server to send emails. Update the following details in the script:
-
-sender_email: The email address from which the notifications will be sent.
-username: The Gmail account username.
-password: The Gmail account's app-specific password (generate this from your Google account settings).
+Email Configuration: The script uses Gmail's SMTP server to send emails.<br/>
+Update the following details in the script:
+sender_email: The email address from which the notifications will be sent.<br/>
+username: The Gmail account username.<br/>
+password: The Gmail account's app-specific password (generate this from your Google account settings).<br/>
 
 Changing Camera Source:
 The script uses the default camera (usually the laptop's webcam). If you're using an external camera, update the video_capture line:
