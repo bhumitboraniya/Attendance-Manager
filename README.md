@@ -83,8 +83,3 @@ The script uses the default camera (usually the laptop's webcam). If you're usin
 ```
 video_capture = cv2.VideoCapture(1)  # Use 1, 2, or 3 for external cameras
 ```
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-```
-This detailed README file is ready for you to copy and paste into your `README.md` file on GitHub. It includes all the necessary information about the project, installation steps, usage instructions, project structure, and configuration settings.
-```
