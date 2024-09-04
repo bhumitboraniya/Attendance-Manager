@@ -48,7 +48,7 @@ Example:
 
 Attendance CSV: A new CSV file will be generated each day, named with the current date (e.g., 2024-09-04.csv), containing attendance records.
 
-
+<br/>
 ## Usage
 Running the Program
 To start the face recognition attendance system, run the following command in your terminal:
@@ -56,14 +56,14 @@ To start the face recognition attendance system, run the following command in yo
 ```bash
 python your_script_name.py
 ```
+<br/>
 The webcam will open, and the system will begin recognizing faces in real-time. The names of recognized students will be displayed on the screen, and their attendance will be recorded.
 
-To stop the program, press the q key.
+To stop the program, press the q key.<br/>
 
-Sending Absent Notifications
-After attendance is recorded, the system will automatically send email notifications to absent students, informing them of their absence.
+Sending Absent Notifications After attendance is recorded, the system will automatically send email notifications to absent students, informing them of their absence.<br/>
 
-Project Structure
+## Project Structure
 your_script_name.py: Main script for running the face recognition attendance system.<br/>
 faces/: Directory containing images of all students.<br/>
 file1.csv: CSV file containing email addresses, names, and image filenames of students.<br/>
@@ -71,7 +71,7 @@ file1.csv: CSV file containing email addresses, names, and image filenames of st
 
 ## Configuration
 Email Configuration: The script uses Gmail's SMTP server to send emails.<br/>
-Update the following details in the script:
+Update the following details in the script:<br/>
 sender_email: The email address from which the notifications will be sent.<br/>
 username: The Gmail account username.<br/>
 password: The Gmail account's app-specific password (generate this from your Google account settings).<br/>
