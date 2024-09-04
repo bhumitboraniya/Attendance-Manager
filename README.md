@@ -43,7 +43,7 @@ email,name,filename
 
 Example:
 
-22bce503@nirmauni.ac.in,Bhumit Boraniya,bhumit.jpg
+22bce503@nirmauni.ac.in,Bhumit Boraniya,bhumit.jpg \n
 22bce504@nirmauni.ac.in,Shrut Patel,shrut.jpg
 
 Attendance CSV: A new CSV file will be generated each day, named with the current date (e.g., 2024-09-04.csv), containing attendance records.
