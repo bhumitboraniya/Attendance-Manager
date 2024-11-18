@@ -151,7 +151,7 @@ dname = list(set(dname1) - set(dname2))
 sender_email = "attendance.management.nirmauni@gmail.com"
 # Gmail account login credentials
 username = "attendance.management.nirmauni@gmail.com"
-password = "pazmhplhinwhywso"
+password = "pazmhplhinwhywsodemo"
 
 # Email message to be sent
 subject = f"Absent Report on {current_date}"
